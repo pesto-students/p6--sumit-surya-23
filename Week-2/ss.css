@@ -1,0 +1,120 @@
+body{
+  margin:0px;
+   background:palegoldenrod;
+   font-weight:30px;
+ }
+ 
+ p{
+ justify-content:center;
+ 
+ }
+ h1{
+   text-align:center;
+   border:2px solid;
+   background-color:darkkhaki;
+ }
+ a{
+   text-decoration:underline;
+ }
+ #container img{
+   width:100%;
+   height:auto;
+ }
+ #container{
+   display:flex;
+   flex-direction:row;
+    text-align:center;
+   justify-content:center;
+ }
+ #container div{
+   width:100%;
+   
+   
+ }
+ 
+ footer{
+   position:absolute;
+   width:100%;
+ background:palegoldenrod;
+ text-align:center;
+ }
+ button{
+   background-color:black;
+   width:200px;
+   padding:10px;
+   color:white;
+   border-radius:10px;
+ }
+ button:hover{
+   background-color:red;
+ }
+ form{
+   
+   justify-content:left;
+ padding-left:0%;
+   font-family:'TimesNewRoman';
+  
+ }
+ #column{
+ border:1 px solid;
+ }
+ form >label{
+   margin-left:10px;
+ }
+ 
+ #price-container{
+   display:flex;
+   flex-direction:row;
+   margin-top:30px;
+ }
+ 
+ .card img {
+  
+   margin-left:10%;
+  
+ }
+ h3{
+   text-align:left;
+ }
+ 
+
+ .card:hover {
+   box-shadow: grey;
+ }
+ form >input{
+   color:yellowgreen;
+   padding:2%;
+   border-radius:5px;
+   margin-right:0px;
+ }
+ label{
+   padding-right:20%;
+   text-align:center;
+ }
+ #hero-img{
+   margin-top:20%;
+ }
+ .space-container {
+ padding:0px;
+ margin-top:0px;
+ }
+ 
+ 
+ @media only screen and (max-width: 700px) {
+   #container{
+    
+     flex-direction:column;
+   }
+   #container div{
+     width:100%;
+   flex-direction:column;
+   }
+   #column{
+   flex-direction:column;
+   }
+   #price-container{
+     flex-direction:column;
+   
+   }
+    .card{width:100%;}
+ }
